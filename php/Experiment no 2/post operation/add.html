@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Post Addition operation</title>
+    <link rel="stylesheet" href="../calculator.css" />
+  </head>
+  <body>
+    <div class="main">
+      <form action="./addDisplay.php" method="post">
+        <input
+          type="number"
+          name="num1"
+          id="num1"
+          placeholder="Enter number 1"
+          required
+        />
+        <input
+          type="number"
+          name="num2"
+          id="num2"
+          placeholder="Enter number 2"
+          required
+        />
+        <input type="submit" value="ADD" name="submit" id="btn" />
+      </form>
+    </div>
+  </body>
+</html>
